@@ -54,3 +54,8 @@ footer{
   border-top: 1px solid #000;
   text-align: center;
 }
+
+html {
+  font-size: 10px; 
+  font-family: "Open Sans", sans-serif;
+}
