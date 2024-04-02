@@ -36,6 +36,7 @@ main{
 }
 
 aside{
+  position:relative;
   width: 20rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
   background-color: #eee;
