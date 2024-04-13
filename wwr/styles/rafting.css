@@ -83,3 +83,17 @@ a {
     width: 200px;
    
   }
+
+  header{
+    max-width: 840px;
+    margin: 0 auto;
+    background-color: #82a66b;
+  }
+
+  .header-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+
+  }
