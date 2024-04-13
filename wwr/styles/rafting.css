@@ -283,3 +283,16 @@ button {
   margin-right: 8px;
   flex-shrink: 0;
 }
+.container {
+  max-width: 1200px;
+  width: 90%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: 300px; /* Adjust this value for your desired medium size */
+  display: block;
+  margin: 0 auto;
+}
+
