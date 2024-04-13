@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This site has the main objective to provide a real satisfying experience of thrilling adventure by the California rivers. If you want to discover your adventurous side, just come here and schedule a wild experience for you and your family. Now you can enjoy every moment that we will take care of your safety.">
+    <meta name="author" content="Bruno Nascimento">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us - WHITE WATER RAFTING</title>
+</head>
+<body>
+    <header>
+        <div class="header-grid">  
+            <img src="images/logo.png" alt="Site Rafting Logo" width="200">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="company-info">
+            <h1>Contact Us</h1>
+            <p>Company Information:</p>
+            <ul>
+                <li>Address: 123 Adventure St, Riverside, CA</li>
+                <li>Phone: +1-234-567-8901</li>
+                <li>Email: info@whitewaterrafting.com</li>
+            </ul>
+            <div id="map-container">
+                <!-- Embedded Google Map -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.136856879311!2d-117.39690738480087!3d33.98013772792551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcaed34b60c37f%3A0x5e9a421f1d21d676!2sWhite%20Water%20Rafting%20Co.!5e0!3m2!1sen!2sus!4v1649831425463!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div id="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="employee">
+                <img src="images/mike.jpg" alt="Employee 1">
+                <p>Captain Jack - River Guide</p>
+            </div>
+            <div class="employee">
+                <img src="images/sarah.jpeg" alt="Employee 2">
+                <p>Sarah Johnson - Trip Coordinator</p>
+            </div>
+            <div class="employee">
+                <img src="images/jack.avif" alt="Employee 3">
+                <p>Mike Miller - Safety Officer</p>
+            </div>
+        </div>
+        <div id="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="/my-handling-form-page" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" required>
+                
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_email" required>
+                
+                <label for="purpose">Purpose of Message:</label>
+                <ul>
+                    <li><input type="radio" id="general-inquiry" name="purpose" value="General Inquiry" required>
+                        <label for="general-inquiry">General Inquiry</label></li>
+                    <li><input type="radio" id="reservation-question" name="purpose" value="Reservation Question" required>
+                        <label for="reservation-question">Reservation Question</label></li>
+                    <li><input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion" required>
+                        <label for="website-suggestion">Website Suggestion</label></li>
+                </ul>
+                
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message" required></textarea>
+                
+                <label for="subscribe">Please subscribe me to the monthly newsletter:</label>
+                <input type="checkbox" id="subscribe" name="subscribe_newsletter">
+                
+                <button type="submit">Send Your Message</button>
+            </form>
+        </div>
+    </main>
+    <footer>  
+        <p>&copy;2024 | White Water Rafting | Bruno Nascimento </p>          
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook_logo.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/x_logo.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram_logo.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
